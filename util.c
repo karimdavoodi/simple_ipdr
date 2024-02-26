@@ -1,8 +1,10 @@
 #pragma once
+
 const char *version = "0.9.18";
-const char *copyright = "Copyright 2016. Karim Davoodi. karimdavoodi@gmail.com";
+const char *copyright = "Copyright 1398, Gasedak Samaneh";
 //#define TO_SYSLOG 
 #define LICENSE_TIMESTAMP  (1550323770 + 3600*24*365*4) 
+/* 365 day after `date +%s`  97/11/27 */
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <stdio.h>

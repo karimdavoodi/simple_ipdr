@@ -1,0 +1,10 @@
+#!/bin/sh
+
+curl "http://127.0.0.1:8000/GetIPDR?\
+TelNum=12431\
+&IPAddr=18d6c7c918b2\
+&CId=1310703842\
+&FDate=1575105942\
+&TDate=1575106042\
+&Uname=admin0\
+&AutStr=123"
