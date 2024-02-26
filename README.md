@@ -1,8 +1,9 @@
 # Simple IPDR (Internet Protocol Detail Record)
 
 Users <------------------> ISP <-----------------------------------------> Internet
-                           |
-                           -----> User Traffic --> 
-                           |                        IPDR ---> log
-                           -----> AAA(Radius)  -->
+
+                  
+                          ISP -----> User Traffic --> 
+                                                       IPDR ----------> log
+                          ISP -----> AAA(Radius)  -->
 
